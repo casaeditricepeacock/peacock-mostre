@@ -1,0 +1,76 @@
+{
+  "type": "MostreSystemGraph",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "graph_id": "altino_venezia_graph",
+  "label": "Grafo di sistema del volume Altino Venezia",
+  "peacock_integration": "autonomous",
+  "nodes": [
+    "fondazione_premio_altino",
+    "altino_venezia_2026"
+  ],
+  "graph_relations": [
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "published_by",
+      "object": "Casa Editrice Peacock"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "in_collana",
+      "object": "Utsuwa"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "promoted_by",
+      "object": "fondazione_premio_altino"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "authored_by",
+      "object": "Leonardo Trevisan"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "documents",
+      "object": "https://www.wikidata.org/wiki/Q441542"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "documents",
+      "object": "https://www.wikidata.org/wiki/Q685132"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "documents",
+      "object": "https://www.wikidata.org/wiki/Q958212"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "documents",
+      "object": "https://www.wikidata.org/wiki/Q641"
+    },
+    {
+      "subject": "https://www.wikidata.org/wiki/Q441542",
+      "predicate": "connected_by_road",
+      "object": "https://www.wikidata.org/wiki/Q958212"
+    },
+    {
+      "subject": "https://www.wikidata.org/wiki/Q441542",
+      "predicate": "connected_by_road",
+      "object": "https://www.wikidata.org/wiki/Q685132"
+    },
+    {
+      "subject": "https://www.wikidata.org/wiki/Q441542",
+      "predicate": "historical_origin_of",
+      "object": "https://www.wikidata.org/wiki/Q641"
+    }
+  ],
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "lentezza"
+  ],
+  "traversal_note": "Il nodo punta al glossario di peacock-data solo su lentezza. Non punta ad altri volumi. Il riferimento tra repository e unidirezionale verso peacock-data."
+}
