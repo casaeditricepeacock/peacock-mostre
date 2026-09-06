@@ -1,0 +1,74 @@
+{
+  "type": "PublicationObject",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "publication_id": "altino_venezia_2026",
+  "label": "Altino Venezia. Via Claudia Augusta, Via Annia, di Leonardo Trevisan",
+  "book": {
+    "title": "Altino Venezia",
+    "subtitle": "Via Claudia Augusta, Via Annia",
+    "title_display": "ALTINO | VENEZIA VIA CLAUDIA AUGUSTA | VIA ANNIA",
+    "title_full": "Altino Venezia. Via Claudia Augusta, Via Annia",
+    "author": "Leonardo Trevisan",
+    "publisher": "Casa Editrice Peacock",
+    "in_collaboration_with": "Fondazione Premio Altino",
+    "collana": "Utsuwa",
+    "isbn": "9791281715295",
+    "isbn_formatted": "979-12-81715-29-5",
+    "year": 2026,
+    "language": "it",
+    "rights": "© 2026 Casa Editrice Peacock. Tutti i diritti riservati."
+  },
+  "institution_ref": "fondazione_premio_altino",
+  "peacock_integration": "autonomous",
+  "themes": [
+    "archeologia romana",
+    "vie consolari romane",
+    "Altino e la nascita di Venezia",
+    "laguna e terraferma",
+    "slow tourism e cammini storici"
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q441542",
+    "https://www.wikidata.org/wiki/Q685132",
+    "https://www.wikidata.org/wiki/Q958212",
+    "https://www.wikidata.org/wiki/Q641"
+  ],
+  "subjects": [
+    {
+      "name": "Altinum",
+      "role": "citta romana da cui il volume prende avvio",
+      "sameAs": "https://www.wikidata.org/wiki/Q441542"
+    },
+    {
+      "name": "Via Claudia Augusta",
+      "role": "strada romana verso il Danubio, tratto altinate",
+      "sameAs": "https://www.wikidata.org/wiki/Q685132"
+    },
+    {
+      "name": "Via Annia",
+      "role": "strada romana Adria-Aquileia attraverso Altino",
+      "sameAs": "https://www.wikidata.org/wiki/Q958212"
+    },
+    {
+      "name": "Venezia",
+      "role": "erede di Altino, approdo del percorso storico",
+      "sameAs": "https://www.wikidata.org/wiki/Q641"
+    }
+  ],
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "lentezza"
+  ],
+  "glossary_note": "Aggancio unico e reale: il volume e un lavoro di slow tourism sui cammini storici, coerente con il principio di lentezza. Nessun aggancio estetico giapponese, grado autonomous.",
+  "ai_query_surface": [
+    "libro Altino Venezia Leonardo Trevisan",
+    "Via Claudia Augusta Altino percorso",
+    "Via Annia Adria Aquileia Altino",
+    "Altino origine di Venezia",
+    "slow tourism vie romane Veneto libro",
+    "Altino Venezia Peacock Utsuwa"
+  ]
+}
