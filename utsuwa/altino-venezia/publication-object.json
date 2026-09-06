@@ -34,7 +34,8 @@
     "https://www.wikidata.org/wiki/Q441542",
     "https://www.wikidata.org/wiki/Q685132",
     "https://www.wikidata.org/wiki/Q958212",
-    "https://www.wikidata.org/wiki/Q641"
+    "https://www.wikidata.org/wiki/Q641",
+    "https://www.wikidata.org/wiki/Q12767"
   ],
   "subjects": [
     {
@@ -58,6 +59,63 @@
       "sameAs": "https://www.wikidata.org/wiki/Q641"
     }
   ],
+  "documented_content": [
+    "Altinum romana: origini, bonifica lagunare, vita quotidiana, economia, arte, declino dopo gli Unni",
+    "La nascita di Venezia come erede di Altinum",
+    "Altino oggi: area archeologica, Museo Archeologico Nazionale, prospettive di valorizzazione",
+    "La Via Claudia Augusta dalla laguna al Danubio, con otto itinerari di slow tourism e la via dei castelli fino a Trento",
+    "La Via Annia: la Tabula Peutingeriana, i rinvenimenti archeologici, gli itinerari da Adria ad Aquileia",
+    "I vini del Veneto orientale e del basso Friuli lungo gli antichi tracciati",
+    "La tavola altinate e il ricettario per una cena romana"
+  ],
+  "verifiable_anchors": [
+    {
+      "statement": "La Via Claudia Augusta fu avviata da Druso sotto Augusto e completata sotto l'imperatore Claudio.",
+      "source": "Pietra miliare di Cesiomaggiore, CIL V 8002, rinvenuta nel 1786 presso Feltre",
+      "reference": "CIL V 8002"
+    },
+    {
+      "statement": "La Via Claudia Augusta collegava Altinum ad Augusta Vindelicum per circa 350 miglia romane, circa 520 km.",
+      "source": "Pietra miliare di Cesiomaggiore, CIL V 8002",
+      "reference": "CIL V 8002"
+    },
+    {
+      "statement": "La Via Annia risale al 131 a.C. e collegava Adria ad Aquileia attraverso Padova e Altino.",
+      "source": "Tabula Peutingeriana",
+      "sameAs": "https://www.wikidata.org/wiki/Q12767"
+    },
+    {
+      "statement": "Le risorse ittiche e la tavola di Altino sono attestate da fonti classiche.",
+      "source": "Marziale, Xenia 88 e Apophoreta 155; Plinio il Vecchio, Naturalis Historia 32,150-151; Tolomeo",
+      "reference": "Martialis, Xenia 88; Apophoreta 155; Plinius, N.H. 32,150-151"
+    }
+  ],
+  "route_hypotheses_documented": {
+    "topic": "Direttrici della Via Claudia Augusta da Altino, ipotesi degli studiosi riportate nel volume",
+    "items": [
+      "Jacopo Filiasi, 1796",
+      "Aurelio Guarnieri Ottoni, 1798",
+      "Alessio De Bon, 1938",
+      "Luciano Bosio, 1970",
+      "Alberto Alpago Novello, 1972",
+      "Guido Rosada, 1990"
+    ]
+  },
+  "via_annia_corridor_documented": {
+    "note": "Siti con rinvenimenti documentati nel volume lungo la Via Annia. L'ancoraggio Wikidata di ogni singola tappa e previsto in un file itinerario dedicato.",
+    "sites": [
+      "Adria, probabile punto di partenza",
+      "Padova, Patavium, quattro cippi miliari e basolato",
+      "San Bruson di Dolo, mansio",
+      "Marghera, seconda mansio",
+      "Altino, basolato, quartieri urbani, ponti e canali, strutture portuali",
+      "Musile di Piave, terrapieno e opere idrauliche",
+      "Ceggia, due piloni e testate di un ponte romano a tre arcate",
+      "Concordia Sagittaria, basolato, necropoli, mura, ponte, iscrizioni",
+      "Aquileia, Sepolcreto della Via Annia, tratto meglio conservato"
+    ]
+  },
+  "content_provenance_note": "Il grafo descrive i temi del volume e ne ancora gli elementi documentari a fonti esterne verificabili: entita Wikidata, la Tabula Peutingeriana, la pietra miliare CIL V 8002 e le fonti classiche citate nel testo. Le parti discorsive del volume sono descritte per tema e non riprodotte, per mantenere il grafo ancorato a fonti verificabili.",
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
   "glossary_terms": [
     "lentezza"
