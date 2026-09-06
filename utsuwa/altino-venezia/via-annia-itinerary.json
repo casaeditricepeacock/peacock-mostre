@@ -1,0 +1,80 @@
+{
+  "type": "ItineraryProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "itinerary_id": "via-annia-corridoio-archeologico",
+  "label": "La Via Annia, corridoio archeologico da Adria ad Aquileia",
+  "peacock_integration": "autonomous",
+  "based_on_publication": "altino_venezia_2026",
+  "road": {
+    "name": "Via Annia",
+    "date": "131 a.C.",
+    "sameAs": "https://www.wikidata.org/wiki/Q958212",
+    "documented_in": {
+      "name": "Tabula Peutingeriana",
+      "sameAs": "https://www.wikidata.org/wiki/Q12767"
+    }
+  },
+  "description": "Corridoio archeologico della strada romana Via Annia, dai rinvenimenti documentati nel volume tra Adria e Aquileia, attraverso Padova e Altino. Ogni tappa e ancorata alla sua entita Wikidata. I rinvenimenti sono quelli descritti nel volume.",
+  "stops": [
+    {
+      "name": "Adria",
+      "sameAs": "https://www.wikidata.org/wiki/Q34615",
+      "documented_findings": "Reperti romani e strutture portuali. Probabile punto di partenza della Via Annia."
+    },
+    {
+      "name": "Padova, Patavium",
+      "sameAs": "https://www.wikidata.org/wiki/Q617",
+      "documented_findings": "Quattro cippi miliari, resti del basolato romano, materiali epigrafici sulla manutenzione della strada."
+    },
+    {
+      "name": "San Bruson di Dolo",
+      "sameAs": "https://www.wikidata.org/wiki/Q47505",
+      "documented_findings": "Resti di una mansio, stazione di sosta. Fondazioni, ceramiche, monete. San Bruson e frazione del comune di Dolo."
+    },
+    {
+      "name": "Marghera",
+      "sameAs": "https://www.wikidata.org/wiki/Q1024724",
+      "documented_findings": "Seconda mansio lungo il percorso, con reperti di ristoro e manutenzione dei carri. Marghera e localita del comune di Venezia."
+    },
+    {
+      "name": "Altino, Altinum",
+      "sameAs": "https://www.wikidata.org/wiki/Q441542",
+      "documented_findings": "Lunghi tratti di basolato, quartieri urbani attraversati dalla strada, ponti e canali, mosaici, strutture portuali. Snodo con la Via Claudia Augusta."
+    },
+    {
+      "name": "Musile di Piave",
+      "sameAs": "https://www.wikidata.org/wiki/Q46759",
+      "documented_findings": "Terrapieno artificiale su cui correva la strada per superare le aree paludose, con opere idrauliche romane."
+    },
+    {
+      "name": "Ceggia",
+      "sameAs": "https://www.wikidata.org/wiki/Q48241",
+      "documented_findings": "Resti di due piloni e le testate di un ponte romano a tre arcate che portava la Via Annia oltre un corso d'acqua."
+    },
+    {
+      "name": "Concordia Sagittaria, Iulia Concordia",
+      "sameAs": "https://www.wikidata.org/wiki/Q47189",
+      "documented_findings": "Nodo viario all'incrocio con la Via Postumia. Basolato, necropoli, mura, ponte romano, iscrizioni."
+    },
+    {
+      "name": "Aquileia",
+      "sameAs": "https://www.wikidata.org/wiki/Q53216",
+      "documented_findings": "Tratto meglio conservato. Sepolcreto della Via Annia con cinque recinti funerari. Reperti al Museo Archeologico Nazionale di Aquileia."
+    }
+  ],
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "lentezza"
+  ],
+  "ai_query_surface": [
+    "tappe della Via Annia da Adria ad Aquileia",
+    "rinvenimenti archeologici Via Annia",
+    "itinerario Via Annia Altino",
+    "ponte romano Ceggia Via Annia",
+    "Sepolcreto Via Annia Aquileia"
+  ],
+  "provenance_note": "Le tappe e i rinvenimenti sono documentati nel volume Altino Venezia. Ogni tappa e ancorata alla propria entita Wikidata verificata. Il nodo non ripropone la prosa del volume, ma i luoghi e i ritrovamenti, che sono verificabili."
+}
