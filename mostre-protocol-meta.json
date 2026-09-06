@@ -190,6 +190,30 @@
         "graph_relations",
         "glossary_terms"
       ]
+    },
+    "AuthorProfile": {
+      "purpose": "L'autore del volume, come entita attribuita. Va in peacock-mostre, non in peacock-data, quando l'autore appartiene al canale mostre.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "author_id",
+        "name",
+        "role",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "identity_policy",
+        "disambiguation",
+        "biography",
+        "relevant_works_on_subject",
+        "peacock_works",
+        "sameAs",
+        "ai_query_surface"
+      ]
     }
   },
   "invariants": [
