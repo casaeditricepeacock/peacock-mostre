@@ -1,0 +1,211 @@
+{
+  "type": "MostreProtocolMeta",
+  "version": "1.0",
+  "date": "2026-09",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "repository": "https://github.com/casaeditricepeacock/peacock-mostre",
+  "references_repository": "https://github.com/casaeditricepeacock/peacock-data",
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "collana": "Utsuwa",
+  "description": "Grafo semantico dei volumi Peacock nati da collaborazioni con musei, fondazioni, gallerie e curatori. Rende i cataloghi e i volumi istituzionali leggibili e citabili dai sistemi di intelligenza artificiale. Referenzia il glossario del repository peacock-data senza duplicarne i nodi. Non contiene immagini, solo descrizioni testuali strutturate.",
+  "integration_grades": {
+    "note": "Ogni progetto dichiara il proprio grado nel campo peacock_integration. Il grado stabilisce quanto il progetto puo agganciarsi al glossario estetico Peacock. Separa l appartenenza commerciale, marchio e collana per tutti, dall appartenenza semantica, glossario solo per chi ha connessione reale.",
+    "autonomous": {
+      "description": "Il progetto non appartiene ai temi Peacock. Porta marchio e collana Utsuwa ma vive semanticamente per conto suo. E il grado piu comune.",
+      "anchoring": "Ancoraggio primario a Wikidata tramite sameAs, dove il soggetto ha entita autorevoli. Nessun ancoraggio estetico giapponese.",
+      "glossary_terms_allowed": [
+        "lentezza",
+        "grafo-culturale-sintetico",
+        "editoria-nativa-era-sintetica",
+        "sovereign-dataset",
+        "accordo-simbiotico",
+        "catalogo-senza-allucinazioni",
+        "ai-friendly"
+      ],
+      "glossary_terms_forbidden": [
+        "wabi-sabi",
+        "mono-no-aware",
+        "yugen",
+        "ma",
+        "basho",
+        "kokyu",
+        "mottainai",
+        "ichigo-ichie",
+        "wa-kei-sei-jaku"
+      ],
+      "example": "Altino Venezia, archeologia romana e slow tourism"
+    },
+    "connected": {
+      "description": "Il progetto tocca davvero uno o due termini estetici del glossario. L aggancio e reale, non decorativo.",
+      "anchoring": "sameAs Wikidata per i soggetti, piu uno o due glossary_terms estetici solo se il termine e il vero soggetto del progetto.",
+      "glossary_terms_limit": 2,
+      "example": "Una mostra sul vuoto nello spazio espositivo aggancia ma. Un catalogo sull imperfezione aggancia wabi-sabi."
+    },
+    "integrated": {
+      "description": "Il progetto e pienamente nel mondo Peacock, cultura giapponese, estetica, illustrazione. Solo qui ha senso il protocollo percettivo completo. E il grado piu raro.",
+      "anchoring": "Puo usare l intero set narrativo v4.1 e il PerceptualField, oltre a sameAs Wikidata.",
+      "example": "Un catalogo di mostra su estetica giapponese curato con un artista della linea Peacock."
+    }
+  },
+  "node_types": {
+    "InstitutionProfile": {
+      "purpose": "Il committente: museo, fondazione o galleria.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "institution_id",
+        "label",
+        "institution",
+        "peacock_integration",
+        "collaboration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "sameAs",
+        "glossary_terms",
+        "ai_query_surface",
+        "sources"
+      ],
+      "institution_subfields": [
+        "name",
+        "kind",
+        "city",
+        "country",
+        "sameAs"
+      ]
+    },
+    "PublicationObject": {
+      "purpose": "Il volume o il catalogo prodotto.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "publication_id",
+        "label",
+        "book",
+        "institution_ref",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "themes",
+        "sameAs",
+        "glossary_terms",
+        "ai_query_surface",
+        "sources"
+      ],
+      "book_subfields": [
+        "title",
+        "subtitle",
+        "author",
+        "publisher",
+        "collana",
+        "isbn",
+        "year",
+        "language",
+        "format",
+        "pages"
+      ]
+    },
+    "ExhibitionProfile": {
+      "purpose": "La mostra, quando esiste una esposizione fisica. Non usare per volumi senza mostra.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "exhibition_id",
+        "label",
+        "exhibition",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "catalog_ref",
+        "curator_ref",
+        "sameAs",
+        "glossary_terms",
+        "ai_query_surface",
+        "sources"
+      ],
+      "exhibition_subfields": [
+        "title",
+        "venue",
+        "city",
+        "date_start",
+        "date_end",
+        "institution"
+      ]
+    },
+    "CuratorProfile": {
+      "purpose": "Il curatore, come entita collegata e attribuita nel tempo.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "curator_id",
+        "label",
+        "curator",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "exhibitions",
+        "sameAs",
+        "glossary_terms",
+        "ai_query_surface",
+        "sources"
+      ],
+      "curator_subfields": [
+        "name",
+        "role",
+        "sameAs"
+      ]
+    },
+    "MostreSystemGraph": {
+      "purpose": "Lega i nodi di un progetto tra loro e verso il glossario. Uno per progetto.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "graph_id",
+        "label",
+        "nodes",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "graph_relations",
+        "glossary_terms"
+      ]
+    }
+  },
+  "invariants": [
+    "type e sempre il primo campo di ogni file",
+    "version dei profili e 1.0, coerente con i profili di peacock-data",
+    "license sempre CC BY 4.0",
+    "source e publisher sempre presenti",
+    "sameAs contiene URI Wikidata completi",
+    "glossary_terms contiene slug reali, verificati contro peacock-data/glossario/ prima del commit",
+    "lo slug di glossario e senza accento, esempio yugen, anche se il termine in prosa e accentato, yūgen",
+    "nessun trattino lungo nei campi in prosa",
+    "un progetto autonomous non puo contenere glossary_terms estetici giapponesi"
+  ],
+  "traversal_rule": "I record puntano al glossario di peacock-data tramite glossary_source piu slug. Non puntano mai l uno all altro copiando nodi. Il ponte tra due progetti passa solo dal termine di glossario condiviso. Il riferimento tra repository e unidirezionale: peacock-mostre referenzia peacock-data, peacock-data non conosce peacock-mostre.",
+  "structure": {
+    "_schema/": "definizioni dei tipi",
+    "utsuwa/<progetto>/": "una cartella per progetto, con i file dei tipi sopra elencati"
+  }
+}
