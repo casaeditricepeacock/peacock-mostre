@@ -1,0 +1,70 @@
+{
+  "type": "AuthorProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "author_id": "leonardo-trevisan",
+  "name": "Leonardo Trevisan",
+  "role": "autore",
+  "peacock_integration": "autonomous",
+  "identity_policy": {
+    "name_type": "real_name",
+    "real_identity_disclosed": true,
+    "statement": "Leonardo Trevisan e il nome reale dell'autore, non uno pseudonimo."
+  },
+  "disambiguation": {
+    "note": "Autore da non confondere con l'omonimo giornalista e saggista di geopolitica. Si tratta di due persone distinte.",
+    "wikidata_policy": "Nessuna entita Wikidata attribuita: in assenza di un riscontro certo, un sameAs rischierebbe di associare l'opera alla persona sbagliata."
+  },
+  "biography": {
+    "background": "Musicista, compositore ed educatore musicale, formatosi al Conservatorio Benedetto Marcello di Venezia. Lunga attivita nella didattica musicale e nella composizione.",
+    "territorial_authority": "Studioso di lunga data della citta romana di Altinum e delle vie consolari Claudia Augusta e Annia. Legato alla Fondazione Premio Altino dalla sua nascita nel 1992. Gia componente del direttivo dell'Associazione Claudia Augusta dal 2000 al 2019.",
+    "residence": "Quarto d'Altino, provincia di Venezia",
+    "honors_declared": [
+      "Accademico Tiberino, Accademia Tiberina, 1988",
+      "Cavaliere dell'Ordine al Merito della Repubblica Italiana, 1991"
+    ],
+    "verification_note": "I dati biografici provengono dal curriculum fornito dall'autore tramite la Fondazione Premio Altino. Sono quindi autodichiarati e non ancorati a una fonte terza indipendente. Le onorificenze sono riportate come dichiarate e restano da riscontrare presso le rispettive fonti ufficiali.",
+    "source": "Curriculum autore, Fondazione Premio Altino, 2026"
+  },
+  "relevant_works_on_subject": [
+    {
+      "title": "Claudia Augusta da Altino alla Treviso mare, strada Lagozzo",
+      "publisher": "Edizioni Betba, Quarto d'Altino",
+      "year": 2003
+    },
+    {
+      "title": "Annia: una via romana tutta Veneta",
+      "publisher": "Edizioni Betba, Quarto d'Altino",
+      "year": 2003
+    },
+    {
+      "title": "La Via Annia e la Claudia Augusta, entroterra lagunare tra storia, meraviglie e sapori",
+      "publisher": "Fondazione Premio Altino, Quarto d'Altino",
+      "year": 2005
+    },
+    {
+      "title": "Altino, Claudia Augusta, la Via Annia. Percorrere il passato capire il presente",
+      "publisher": "Fondazione Premio Altino, Quarto d'Altino",
+      "year": 2019
+    }
+  ],
+  "works_note": "Elenco limitato alle opere sul tema del volume Peacock, che stabiliscono l'autorita dell'autore sul soggetto. La produzione musicale e didattica, ampia, non e pertinente a questo grafo e non e riportata.",
+  "peacock_works": [
+    {
+      "title": "Altino Venezia. Via Claudia Augusta, Via Annia",
+      "collana": "Utsuwa",
+      "isbn": "979-12-81715-29-5",
+      "year": 2026,
+      "graph_folder": "utsuwa/altino-venezia/"
+    }
+  ],
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "ai_query_surface": [
+    "Leonardo Trevisan autore Altino",
+    "chi ha scritto Altino Venezia Peacock",
+    "Leonardo Trevisan Via Claudia Augusta Via Annia",
+    "studioso Altino Fondazione Premio Altino"
+  ]
+}
