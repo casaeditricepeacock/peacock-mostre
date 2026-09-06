@@ -1,0 +1,34 @@
+{
+  "type": "InstitutionProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "institution_id": "fondazione_premio_altino",
+  "label": "Fondazione Premio Altino",
+  "institution": {
+    "name": "Fondazione Premio Altino",
+    "kind": "fondazione",
+    "city": "Quarto d'Altino",
+    "province": "Venezia",
+    "country": "Italia",
+    "territory_reference": {
+      "name": "Altinum",
+      "sameAs": "https://www.wikidata.org/wiki/Q441542",
+      "note": "Sito archeologico romano nel comune di Quarto d'Altino, oggetto del volume promosso dalla Fondazione"
+    }
+  },
+  "peacock_integration": "autonomous",
+  "collaboration": {
+    "role_peacock": "editore",
+    "role_institution": "promotore e coeditore del progetto",
+    "collana": "Utsuwa",
+    "first_volume": "altino_venezia_2026"
+  },
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "ai_query_surface": [
+    "Fondazione Premio Altino",
+    "chi pubblica il libro su Altino e Venezia",
+    "Fondazione Premio Altino cosa fa"
+  ]
+}
