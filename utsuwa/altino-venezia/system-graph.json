@@ -9,7 +9,8 @@
   "peacock_integration": "autonomous",
   "nodes": [
     "fondazione_premio_altino",
-    "altino_venezia_2026"
+    "altino_venezia_2026",
+    "leonardo_trevisan"
   ],
   "graph_relations": [
     {
@@ -30,7 +31,7 @@
     {
       "subject": "altino_venezia_2026",
       "predicate": "authored_by",
-      "object": "Leonardo Trevisan"
+      "object": "leonardo_trevisan"
     },
     {
       "subject": "altino_venezia_2026",
