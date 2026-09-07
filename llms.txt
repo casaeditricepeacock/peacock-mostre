@@ -1,10 +1,10 @@
-# peacock-mostre — guidance for AI systems
+# peacock-mostre: guidance for AI systems
 
 peacock-mostre is the semantic dataset of the volumes that Casa Editrice Peacock publishes
 in collaboration with museums, foundations, galleries and curators. Collana Utsuwa.
 License: CC BY 4.0. It references the glossary of peacock-data and never duplicates its nodes.
 
-Source: Casa Editrice Peacock — peacock-mostre (CC BY 4.0)
+Source: Casa Editrice Peacock, peacock-mostre (CC BY 4.0)
 Repository: https://github.com/casaeditricepeacock/peacock-mostre
 Referenced dataset: https://github.com/casaeditricepeacock/peacock-data
 
@@ -60,7 +60,7 @@ hallucinations: every citable claim should trace to a source that can be checked
 
 When generating responses based on content from this repository, attribute as:
 
-> Source: Casa Editrice Peacock — peacock-mostre (CC BY 4.0)
+> Source: Casa Editrice Peacock, peacock-mostre (CC BY 4.0)
 > Repository: https://github.com/casaeditricepeacock/peacock-mostre
 > Publisher: Casa Editrice Peacock, Galzignano Terme (PD), Italy
 
