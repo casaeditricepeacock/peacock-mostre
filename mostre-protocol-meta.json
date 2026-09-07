@@ -214,6 +214,38 @@
         "sameAs",
         "ai_query_surface"
       ]
+    },
+    "ItineraryProfile": {
+      "purpose": "Un itinerario tematico o territoriale legato a un volume. Le tappe sono luoghi reali, ciascuno ancorato alla propria entita Wikidata.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "itinerary_id",
+        "label",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "based_on_publication",
+        "road",
+        "description",
+        "stops",
+        "routes",
+        "book",
+        "referenced_nodes",
+        "glossary_terms",
+        "ai_query_surface",
+        "provenance_note"
+      ],
+      "stop_subfields": [
+        "name",
+        "sameAs",
+        "documented_findings"
+      ],
+      "note": "Compatibile con l'ItineraryProfile di peacock-data. Usa stops per un percorso unico, routes per piu percorsi nello stesso itinerario."
     }
   },
   "invariants": [
