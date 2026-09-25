@@ -1,0 +1,240 @@
+{
+  "type": "ItineraryProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre, Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "itinerary_id": "claudia-augusta-marca-slow-tourism",
+  "label": "Otto itinerari di slow tourism lungo la Claudia Augusta e la Marca trevigiana",
+  "peacock_integration": "autonomous",
+  "based_on_publication": "altino_venezia_2026",
+  "description": "Gli otto itinerari di turismo lento proposti dal volume, che dalla citta romana di Altino si diramano verso la laguna, la Marca trevigiana e le Prealpi. Le tappe sono luoghi reali. Le tappe principali con entita Wikidata certa sono ancorate.",
+  "routes": [
+    {
+      "route_id": "1",
+      "title": "Verso la laguna e Venezia",
+      "stops": [
+        {
+          "name": "Altino",
+          "sameAs": "https://www.wikidata.org/wiki/Q441542",
+          "note": "Museo Archeologico Nazionale"
+        },
+        {
+          "name": "Conca di Portegrandi",
+          "note": "Uscita del Sile verso la laguna nord"
+        },
+        {
+          "name": "Torcello",
+          "sameAs": "https://www.wikidata.org/wiki/Q52441",
+          "note": "Museo provinciale, cattedrale di Santa Maria Assunta, chiesa di Santa Fosca"
+        },
+        {
+          "name": "Venezia",
+          "sameAs": "https://www.wikidata.org/wiki/Q641"
+        }
+      ]
+    },
+    {
+      "route_id": "2",
+      "title": "Verso Oderzo e Conegliano",
+      "stops": [
+        {
+          "name": "Altino",
+          "sameAs": "https://www.wikidata.org/wiki/Q441542"
+        },
+        {
+          "name": "Oderzo",
+          "sameAs": "https://www.wikidata.org/wiki/Q48087",
+          "note": "Opitergium romana, area del foro con basilica e domus"
+        },
+        {
+          "name": "Portobuffolè",
+          "note": "Cittadina medievale"
+        },
+        {
+          "name": "Conegliano",
+          "sameAs": "https://www.wikidata.org/wiki/Q47224",
+          "note": "Casa del Cima, pala nel Duomo, castello panoramico"
+        }
+      ]
+    },
+    {
+      "route_id": "3",
+      "title": "Verso Treviso e Castelfranco",
+      "stops": [
+        {
+          "name": "Altino",
+          "sameAs": "https://www.wikidata.org/wiki/Q441542"
+        },
+        {
+          "name": "Casale sul Sile",
+          "note": "Torre dei Carraresi, sec. XIII"
+        },
+        {
+          "name": "Treviso",
+          "sameAs": "https://www.wikidata.org/wiki/Q5475",
+          "note": "Municipium romano, opere di Tiziano e Tommaso da Modena"
+        },
+        {
+          "name": "Santa Cristina"
+        },
+        {
+          "name": "Casacorba",
+          "note": "Risorgive del Sile"
+        },
+        {
+          "name": "Castelfranco Veneto",
+          "sameAs": "https://www.wikidata.org/wiki/Q29352",
+          "note": "Cittadella murata, Duomo del Preti, casa del Giorgione"
+        },
+        {
+          "name": "Riese",
+          "note": "Casa natale di Papa Pio X"
+        },
+        {
+          "name": "San Vito di Altivole",
+          "note": "Tomba Brion di Carlo Scarpa"
+        },
+        {
+          "name": "Fanzolo",
+          "note": "Villa Emo, 1560 circa"
+        }
+      ]
+    },
+    {
+      "route_id": "4",
+      "title": "Verso Asolo e Possagno",
+      "stops": [
+        {
+          "name": "Treviso",
+          "sameAs": "https://www.wikidata.org/wiki/Q5475"
+        },
+        {
+          "name": "Maser",
+          "note": "Villa Barbaro del Palladio, affreschi del Veronese"
+        },
+        {
+          "name": "Asolo",
+          "sameAs": "https://www.wikidata.org/wiki/Q29371",
+          "note": "Citta di Caterina Cornaro e di Eleonora Duse"
+        },
+        {
+          "name": "Possagno",
+          "sameAs": "https://www.wikidata.org/wiki/Q29369",
+          "note": "Patria di Antonio Canova, Gipsoteca e Tempio Canoviano"
+        }
+      ]
+    },
+    {
+      "route_id": "5",
+      "title": "Il Montello e il Piave",
+      "stops": [
+        {
+          "name": "Nervesa della Battaglia",
+          "note": "Ossario dei caduti"
+        },
+        {
+          "name": "Il Montello",
+          "note": "Percorso naturalistico"
+        },
+        {
+          "name": "Vidor",
+          "note": "Abbazia"
+        },
+        {
+          "name": "Isola dei Morti",
+          "note": "Parco e santuario"
+        },
+        {
+          "name": "Sant'Anna",
+          "note": "Sentiero lungo il Piave, ponte romano"
+        }
+      ]
+    },
+    {
+      "route_id": "6",
+      "title": "Da Susegana a Vittorio Veneto",
+      "stops": [
+        {
+          "name": "Susegana",
+          "note": "Castello e ponte attribuito all'eta romana"
+        },
+        {
+          "name": "Refrontolo",
+          "note": "Molinetto della Croda"
+        },
+        {
+          "name": "San Pietro di Feletto",
+          "note": "Pieve del XII secolo"
+        },
+        {
+          "name": "Revine",
+          "note": "Lago e santuario"
+        },
+        {
+          "name": "Vittorio Veneto",
+          "sameAs": "https://www.wikidata.org/wiki/Q47578",
+          "note": "Ceneda e Serravalle, opere di Tiziano e Sansovino"
+        }
+      ]
+    },
+    {
+      "route_id": "7",
+      "title": "Da Cison a Feltre",
+      "stops": [
+        {
+          "name": "Cison di Valmarino",
+          "note": "Museo della civilta contadina, CastelBrando"
+        },
+        {
+          "name": "Passo Praderadego",
+          "note": "Escursione sulla Claudia Augusta"
+        },
+        {
+          "name": "Zumelle",
+          "note": "Castello di Zumelle"
+        },
+        {
+          "name": "Feltre",
+          "sameAs": "https://www.wikidata.org/wiki/Q1465",
+          "note": "Area archeologica sotto il Duomo, Museo civico, porta imperiale"
+        }
+      ]
+    },
+    {
+      "route_id": "8",
+      "title": "Il Quartier del Piave e Valdobbiadene",
+      "stops": [
+        {
+          "name": "Pieve di Soligo",
+          "note": "Crocevia del Quartier del Piave"
+        },
+        {
+          "name": "Solighetto",
+          "note": "Villa Brandolini, Museo Toti Dal Monte"
+        },
+        {
+          "name": "Follina",
+          "note": "Abbazia di Santa Maria, chiostro romanico del 1268"
+        },
+        {
+          "name": "Valdobbiadene",
+          "sameAs": "https://www.wikidata.org/wiki/Q47428",
+          "note": "Centro del prosecco, colline UNESCO"
+        }
+      ]
+    }
+  ],
+  "disputed_attribution": "Il volume indica una diramazione verso Treviso come Claudia Augusta. Il testo stesso precisa che e detta cosi da alcuni esperti: attribuzione discussa, non accertata.",
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "lentezza"
+  ],
+  "anchoring_status": "Tutte le destinazioni principali degli otto itinerari sono ancorate a Wikidata: Altino, Torcello, Venezia, Oderzo, Conegliano, Treviso, Castelfranco Veneto, Asolo, Possagno, Vittorio Veneto, Feltre, Valdobbiadene. Le tappe minori (ville, borghi, siti naturalistici) sono elencate per nome.",
+  "ai_query_surface": [
+    "itinerari slow tourism Claudia Augusta",
+    "cosa vedere lungo la Via Claudia Augusta Veneto",
+    "percorsi da Altino verso la Marca trevigiana",
+    "itinerari a piedi e in bici Altino Venezia libro"
+  ]
+}
