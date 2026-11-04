@@ -246,6 +246,44 @@
         "documented_findings"
       ],
       "note": "Compatibile con l'ItineraryProfile di peacock-data. Usa stops per un percorso unico, routes per piu percorsi nello stesso itinerario."
+    },
+    "FairProfile": {
+      "purpose": "La presenza di un volume a una fiera del libro: edizione, date, sede, quantita portate. Un file per fiera e per progetto.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "fair_id",
+        "label",
+        "peacock_integration",
+        "fair",
+        "publication_ref",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "book",
+        "peacock_participation",
+        "graph_scope",
+        "why_here",
+        "sameAs",
+        "ai_query_surface"
+      ],
+      "fair_subfields": [
+        "name",
+        "kind",
+        "edition",
+        "dates",
+        "venue",
+        "address",
+        "city",
+        "country",
+        "promoted_by",
+        "source_url",
+        "verification_note"
+      ],
+      "note": "Descrive solo i volumi di questo repository. I titoli di peacock-data portati alla stessa fiera non sono duplicati. Date e sede vanno riscontrate sul sito ufficiale della fiera."
     }
   },
   "invariants": [
