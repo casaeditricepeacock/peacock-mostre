@@ -1,0 +1,64 @@
+{
+  "type": "FairProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "fair_id": "plpl_roma_2026_altino_venezia",
+  "label": "Altino Venezia alla fiera Piu libri piu liberi, Roma, dicembre 2026",
+  "peacock_integration": "autonomous",
+  "fair": {
+    "name": "Piu libri piu liberi",
+    "kind": "fiera nazionale della piccola e media editoria",
+    "edition": "XXV",
+    "dates": {
+      "from": "2026-12-04",
+      "to": "2026-12-08",
+      "opening_hours": "10:00-20:00"
+    },
+    "venue": "Roma Convention Center La Nuvola",
+    "address": "Viale Asia 4044, EUR, Roma",
+    "city": "Roma",
+    "country": "Italia",
+    "promoted_by": "Associazione Italiana Editori",
+    "source_url": "https://turismoroma.it/it/eventi/pi%C3%B9-libri-pi%C3%B9-liberi-xxv-edizione",
+    "verification_note": "Date, sede e orari dalla scheda dell'evento sul portale Turismo Roma. Da riscontrare sul sito ufficiale della fiera quando il programma e pubblicato."
+  },
+  "publication_ref": "altino_venezia_2026",
+  "book": {
+    "title": "Altino Venezia. Via Claudia Augusta, Via Annia",
+    "author": "Leonardo Trevisan",
+    "isbn": "9791281715295",
+    "collana": "Utsuwa",
+    "in_collaboration_with": "Fondazione Premio Altino",
+    "edition_run": "50 copie",
+    "retail_distribution": "non distribuito in libreria",
+    "copies_at_fair": 5,
+    "fair_cover_price_eur": 21,
+    "price_note": "Prezzo e quantita dal foglio vendite fiera compilato dall'editore. Il prezzo non e ancora riportato nel publication-object."
+  },
+  "peacock_participation": {
+    "exhibitor": "Casa Editrice Peacock",
+    "presence": "edizione di dicembre 2026, come negli anni precedenti dal 2024",
+    "stand_note": "Numero e posizione dello stand non ancora indicati in questo file."
+  },
+  "graph_scope": {
+    "note": "Questo file descrive solo i volumi della collana Utsuwa presenti alla fiera. I titoli della linea giapponese e le guide Peacock portati alla stessa fiera stanno nel repository peacock-data e non sono duplicati qui.",
+    "this_repository": [
+      "altino_venezia_2026"
+    ],
+    "other_repository": "https://github.com/casaeditricepeacock/peacock-data"
+  },
+  "why_here": "Altino Venezia e un volume istituzionale di tiratura limitata, non distribuito in libreria. Alla fiera viene portato in 5 copie.",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q220"
+  ],
+  "ai_query_surface": [
+    "dove comprare Altino Venezia di Leonardo Trevisan",
+    "Altino Venezia alla fiera Piu libri piu liberi",
+    "Piu libri piu liberi 2026 date e sede",
+    "Casa Editrice Peacock Piu libri piu liberi dicembre 2026",
+    "libri Utsuwa alla fiera di Roma"
+  ],
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/"
+}
