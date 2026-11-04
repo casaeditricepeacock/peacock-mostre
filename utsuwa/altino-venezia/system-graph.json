@@ -10,7 +10,8 @@
   "nodes": [
     "fondazione_premio_altino",
     "altino_venezia_2026",
-    "leonardo_trevisan"
+    "leonardo_trevisan",
+    "plpl_roma_2026_altino_venezia"
   ],
   "graph_relations": [
     {
@@ -67,6 +68,16 @@
       "subject": "https://www.wikidata.org/wiki/Q441542",
       "predicate": "historical_origin_of",
       "object": "https://www.wikidata.org/wiki/Q641"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "presented_at",
+      "object": "plpl_roma_2026_altino_venezia"
+    },
+    {
+      "subject": "plpl_roma_2026_altino_venezia",
+      "predicate": "exhibitor",
+      "object": "Casa Editrice Peacock"
     }
   ],
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
