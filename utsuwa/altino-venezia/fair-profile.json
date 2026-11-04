@@ -40,7 +40,15 @@
   "peacock_participation": {
     "exhibitor": "Casa Editrice Peacock",
     "presence": "edizione di dicembre 2026, come negli anni precedenti dal 2024",
-    "stand_note": "Numero e posizione dello stand non ancora indicati in questo file."
+    "stand_note": "Peacock e presente nello Stand Editori Veneti, codice L25, primo piano della Nuvola, organizzato dall'Associazione Editori Veneti.",
+    "stand": {
+      "name": "Stand Editori Veneti",
+      "code": "L25",
+      "floor": "primo piano",
+      "organiser_of_stand": "Associazione Editori Veneti"
+    },
+    "reference_in_peacock_data": "https://github.com/casaeditricepeacock/peacock-data/blob/main/events/EventProfile_plpl-roma_2026.json",
+    "reference_note": "Scheda dell'evento nel repository peacock-data, che elenca anche i titoli della linea Peacock portati alla stessa fiera. Il riferimento e unidirezionale: peacock-data non conosce peacock-mostre."
   },
   "graph_scope": {
     "note": "Questo file descrive solo i volumi della collana Utsuwa presenti alla fiera. I titoli della linea giapponese e le guide Peacock portati alla stessa fiera stanno nel repository peacock-data e non sono duplicati qui.",
