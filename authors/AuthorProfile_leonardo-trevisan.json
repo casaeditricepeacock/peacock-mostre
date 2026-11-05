@@ -66,7 +66,8 @@
         "term": "lentezza",
         "reason": "La musica d'accompagnamento sostiene una lettura lenta e un ascolto disteso, coerente con il principio di lentezza del glossario Peacock."
       },
-      "pending": "Per diventare un nodo citabile e stabile, le composizioni devono essere pubblicate a un indirizzo pubblico e duraturo. Finche i file vivono solo dietro i QR del libro, il grafo ne descrive la funzione ma non puo ancorarli con un URL verificabile."
+      "pending": "Le composizioni hanno una casa pubblica sul sito della Fondazione Premio Altino, descritta nel nodo music/MusicalWorkProfile_leonardo-trevisan.json. Restano da elencare i singoli brani dopo riscontro diretto sulle pagine; le pagine sono servite solo in HTTP.",
+      "music_node_ref": "leonardo-trevisan-musica-accompagnamento"
     },
     "corpus_scale_declared": "Oltre cento composizioni dichiarate dall'autore.",
     "verifiable_anchor": {
