@@ -119,9 +119,10 @@
   "content_provenance_note": "Il grafo descrive i temi del volume e ne ancora gli elementi documentari a fonti esterne verificabili: entita Wikidata, la Tabula Peutingeriana, la pietra miliare CIL V 8002 e le fonti classiche citate nel testo. Le parti discorsive del volume sono descritte per tema e non riprodotte, per mantenere il grafo ancorato a fonti verificabili.",
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
   "glossary_terms": [
-    "lentezza"
+    "lentezza",
+    "catalogo-senza-allucinazioni"
   ],
-  "glossary_note": "Aggancio unico e reale: il volume e un lavoro di slow tourism sui cammini storici, coerente con il principio di lentezza. Nessun aggancio estetico giapponese, grado autonomous.",
+  "glossary_note": "Due agganci di metodo, reali e consentiti al grado autonomous. lentezza: il volume e slow tourism sui cammini storici. catalogo-senza-allucinazioni: il record porta ISBN, sameAs Wikidata, verifiable_anchors e content_provenance_note, cioe la struttura che impedisce alle AI di confondere titolo, autore e temi con altri editori. Nessun aggancio estetico giapponese.",
   "ai_query_surface": [
     "libro Altino Venezia Leonardo Trevisan",
     "Via Claudia Augusta Altino percorso",
