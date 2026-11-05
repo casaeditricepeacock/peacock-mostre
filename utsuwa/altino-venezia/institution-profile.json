@@ -26,6 +26,10 @@
     "first_volume": "altino_venezia_2026"
   },
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "diritto-autore-strutturato"
+  ],
+  "glossary_note": "Aggancio di metodo, consentito al grado autonomous. Il progetto e pubblicato come dato aperto intestato alla Fondazione, firmato, datato, versionato e rilasciato CC BY 4.0: e il principio di diritto-autore-strutturato applicato alla collaborazione istituzionale. Nessun aggancio estetico giapponese.",
   "ai_query_surface": [
     "Fondazione Premio Altino",
     "chi pubblica il libro su Altino e Venezia",
