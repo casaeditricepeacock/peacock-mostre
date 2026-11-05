@@ -285,6 +285,38 @@
         "verification_note"
       ],
       "note": "Descrive solo i volumi di questo repository. I titoli di peacock-data portati alla stessa fiera non sono duplicati. Date e sede vanno riscontrate sul sito ufficiale della fiera."
+    },
+    "MusicalWorkProfile": {
+      "purpose": "La musica composta da un autore della collana, quando accompagna la lettura di un volume. Collega il compositore, le raccolte musicali e la loro casa pubblica online. Non duplica i file audio, li referenzia.",
+      "mandatory_fields": [
+        "type",
+        "version",
+        "license",
+        "source",
+        "publisher",
+        "music_id",
+        "label",
+        "composer_ref",
+        "peacock_integration",
+        "glossary_source"
+      ],
+      "optional_fields": [
+        "function",
+        "collections",
+        "access",
+        "related_publications",
+        "sameAs",
+        "glossary_terms",
+        "glossary_note",
+        "ai_query_surface",
+        "provenance_note"
+      ],
+      "collection_subfields": [
+        "name",
+        "source_url",
+        "note"
+      ],
+      "note": "I titoli dei singoli brani e i file audio vanno elencati solo dopo riscontro diretto sulla fonte. Finche la fonte non e verificata, il nodo descrive le raccolte e la loro casa pubblica, non le singole tracce."
     }
   },
   "invariants": [
