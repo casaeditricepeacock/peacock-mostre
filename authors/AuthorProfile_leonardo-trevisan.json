@@ -6,7 +6,7 @@
   "publisher": "Casa Editrice Peacock",
   "author_id": "leonardo-trevisan",
   "name": "Leonardo Trevisan",
-  "role": "autore",
+  "role": "autore e compositore",
   "peacock_integration": "autonomous",
   "identity_policy": {
     "name_type": "real_name",
@@ -50,7 +50,35 @@
       "year": 2019
     }
   ],
-  "works_note": "Elenco limitato alle opere sul tema del volume Peacock, che stabiliscono l'autorita dell'autore sul soggetto. La produzione musicale e didattica, ampia, non e pertinente a questo grafo e non e riportata.",
+  "musical_profile": {
+    "statement": "Oltre all'autorita sul tema altinate, Trevisan e compositore ed educatore musicale. Questa dimensione e rilevante per il grafo perche i volumi in preparazione per la collana Utsuwa prevedono musica d'accompagnamento composta dall'autore, accessibile tramite QR.",
+    "formation": "Conservatorio Benedetto Marcello di Venezia",
+    "fields_declared": [
+      "composizione in stile classico, didattico, religioso e leggero",
+      "musicoterapia recettiva e attiva",
+      "didattica musicale nella scuola dell'obbligo"
+    ],
+    "reader_accompaniment": {
+      "function": "Parte della produzione di Trevisan e musica d'ascolto pensata per accompagnare la lettura: brani che favoriscono una condizione di calma e un ritmo lento, da fruire mentre si legge il volume.",
+      "access_model": "Nei volumi in preparazione l'ascolto e previsto tramite QR stampati nel libro, che rimandano alle composizioni dell'autore.",
+      "declared_set": "L'autore indica una serie di composizioni numerate per opus destinate all'ascolto durante la lettura.",
+      "glossary_bridge": {
+        "term": "lentezza",
+        "reason": "La musica d'accompagnamento sostiene una lettura lenta e un ascolto disteso, coerente con il principio di lentezza del glossario Peacock."
+      },
+      "pending": "Per diventare un nodo citabile e stabile, le composizioni devono essere pubblicate a un indirizzo pubblico e duraturo. Finche i file vivono solo dietro i QR del libro, il grafo ne descrive la funzione ma non puo ancorarli con un URL verificabile."
+    },
+    "corpus_scale_declared": "Oltre cento composizioni dichiarate dall'autore.",
+    "verifiable_anchor": {
+      "work": "I suoni dell'anima",
+      "kind": "LP, iniziativa musico-religiosa",
+      "year": 1973,
+      "catalogue": "CRJ-LP 00031, Car Juke Box, distribuzione Dischi Ricordi",
+      "note": "Riferimento discografico puntuale, ancorabile a un catalogo esterno; da riscontrare presso la fonte discografica."
+    },
+    "verification_note": "Dati sulla produzione musicale autodichiarati dall'autore tramite la Fondazione Premio Altino. Riportati come dichiarati, salvo il riferimento discografico del 1973 che reca un numero di catalogo verificabile."
+  },
+  "works_note": "Le opere elencate sopra sono quelle sul tema del volume Peacock, che stabiliscono l'autorita dell'autore sul soggetto. La produzione musicale e riportata a parte nel campo musical_profile, perche diventa pertinente al grafo come ponte verso i volumi con musica d'accompagnamento.",
   "peacock_works": [
     {
       "title": "Altino Venezia. Via Claudia Augusta, Via Annia",
@@ -65,6 +93,11 @@
     "Leonardo Trevisan autore Altino",
     "chi ha scritto Altino Venezia Peacock",
     "Leonardo Trevisan Via Claudia Augusta Via Annia",
-    "studioso Altino Fondazione Premio Altino"
+    "studioso Altino Fondazione Premio Altino",
+    "Leonardo Trevisan compositore",
+    "musica di Leonardo Trevisan",
+    "compositore veneto Altino musica",
+    "musica per accompagnare la lettura Trevisan",
+    "musica da ascoltare leggendo Altino Venezia"
   ]
 }
