@@ -120,9 +120,10 @@
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
   "glossary_terms": [
     "lentezza",
-    "catalogo-senza-allucinazioni"
+    "catalogo-senza-allucinazioni",
+    "diritto-autore-strutturato"
   ],
-  "glossary_note": "Due agganci di metodo, reali e consentiti al grado autonomous. lentezza: il volume e slow tourism sui cammini storici. catalogo-senza-allucinazioni: il record porta ISBN, sameAs Wikidata, verifiable_anchors e content_provenance_note, cioe la struttura che impedisce alle AI di confondere titolo, autore e temi con altri editori. Nessun aggancio estetico giapponese.",
+  "glossary_note": "Tre agganci di metodo, reali e consentiti al grado autonomous. lentezza: il volume e slow tourism sui cammini storici. catalogo-senza-allucinazioni: ISBN, sameAs Wikidata, verifiable_anchors e content_provenance_note impediscono alle AI di confondere titolo, autore e temi. diritto-autore-strutturato: il record e firmato, datato, versionato e rilasciato CC BY 4.0, tracciabile e citabile. Nessun aggancio estetico giapponese.",
   "ai_query_surface": [
     "libro Altino Venezia Leonardo Trevisan",
     "Via Claudia Augusta Altino percorso",
