@@ -11,7 +11,9 @@
     "fondazione_premio_altino",
     "altino_venezia_2026",
     "leonardo_trevisan",
-    "plpl_roma_2026_altino_venezia"
+    "plpl_roma_2026_altino_venezia",
+    "via-annia-corridoio-archeologico",
+    "claudia-augusta-marca-slow-tourism"
   ],
   "graph_relations": [
     {
@@ -78,11 +80,31 @@
       "subject": "plpl_roma_2026_altino_venezia",
       "predicate": "exhibitor",
       "object": "Casa Editrice Peacock"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "has_itinerary",
+      "object": "via-annia-corridoio-archeologico"
+    },
+    {
+      "subject": "altino_venezia_2026",
+      "predicate": "has_itinerary",
+      "object": "claudia-augusta-marca-slow-tourism"
+    },
+    {
+      "subject": "via-annia-corridoio-archeologico",
+      "predicate": "details_road",
+      "object": "https://www.wikidata.org/wiki/Q958212"
+    },
+    {
+      "subject": "claudia-augusta-marca-slow-tourism",
+      "predicate": "details_road",
+      "object": "https://www.wikidata.org/wiki/Q685132"
     }
   ],
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
   "glossary_terms": [
     "lentezza"
   ],
-  "traversal_note": "Il nodo punta al glossario di peacock-data solo su lentezza. Non punta ad altri volumi. Il riferimento tra repository e unidirezionale verso peacock-data."
+  "traversal_note": "Il grafo di sistema elenca tutti i nodi del progetto Altino Venezia: la fondazione promotrice, il volume, l'autore, la fiera e i due itinerari derivati dal volume. Punta al glossario di peacock-data solo su lentezza. Non punta ad altri volumi. Il riferimento tra repository e unidirezionale verso peacock-data."
 }
