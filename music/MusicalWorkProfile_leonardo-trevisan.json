@@ -1,0 +1,233 @@
+{
+  "type": "MusicalWorkProfile",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "source": "peacock-mostre — Casa Editrice Peacock",
+  "publisher": "Casa Editrice Peacock",
+  "music_id": "leonardo-trevisan-musica-accompagnamento",
+  "label": "Le composizioni di Leonardo Trevisan per l'accompagnamento alla lettura",
+  "composer_ref": "leonardo-trevisan",
+  "peacock_integration": "autonomous",
+  "function": "Musica d'ascolto composta dall'autore, pensata per accompagnare la lettura dei volumi Utsuwa con un ritmo lento e disteso. Le composizioni esistono indipendentemente dai libri; nei volumi in preparazione sono richiamate tramite QR.",
+  "collections": [
+    {
+      "name": "Musica per pianoforte",
+      "source_url": "http://www.fondazionepremioaltino.it/Musica%20per%20pianoforte/musica%20per%20pianoforte.html",
+      "performer": "Pianoforte, Leonardo Trevisan",
+      "playlists": [
+        {
+          "name": "Studi ed espressioni",
+          "playlist_numbers": "1 e 2",
+          "pieces_count": 20,
+          "titles_note": "Brani numerati senza titolo proprio, dalla 1a alla 20a composizione."
+        },
+        {
+          "name": "Virtuosismo",
+          "playlist_numbers": "3",
+          "pieces_count": 10,
+          "titles_note": "Dieci brani di tecnica virtuosistica, numerati da 01 a 10."
+        }
+      ],
+      "pieces_total": 30,
+      "note": "Raccolta pianistica organizzata in tre playlist sulla pagina della Fondazione Premio Altino. Interprete al pianoforte l'autore."
+    },
+    {
+      "name": "Musica per il rilassamento del corpo e della mente, musicoterapia",
+      "source_url": "http://www.fondazionepremioaltino.it/MUSICA%20PER%20IL%20RILASSAMENTO%20DEL%20CORPO%20E%20DELLA%20MENTE/Musicoterapia%20per%20il%20rilassamento%20-%20Copia.htm",
+      "genre": "musica classica, musicoterapia recettiva",
+      "listening_note": "L'ascolto non deve superare i 45-50 decibel.",
+      "tracks_count": 40,
+      "tracks": [
+        {
+          "n": 1,
+          "title": "Per Adea"
+        },
+        {
+          "n": 2,
+          "title": "PRELUDIO infinito amore"
+        },
+        {
+          "n": 3,
+          "title": "Romanza"
+        },
+        {
+          "n": 4,
+          "title": "Riflessi di luna"
+        },
+        {
+          "n": 5,
+          "title": "Dialogo"
+        },
+        {
+          "n": 6,
+          "title": "Dolcemente mamma"
+        },
+        {
+          "n": 7,
+          "title": "Il tramonto"
+        },
+        {
+          "n": 8,
+          "title": "Emozioni"
+        },
+        {
+          "n": 9,
+          "title": "VENEZIA dolce primavera"
+        },
+        {
+          "n": 10,
+          "title": "Nell'ombra dei ricordi"
+        },
+        {
+          "n": 11,
+          "title": "Per Emma Sofia"
+        },
+        {
+          "n": 12,
+          "title": "Per Virginia"
+        },
+        {
+          "n": 13,
+          "title": "Momento"
+        },
+        {
+          "n": 14,
+          "title": "Suoni nello spazio"
+        },
+        {
+          "n": 15,
+          "title": "Dove sei"
+        },
+        {
+          "n": 16,
+          "title": "Dolce attesa"
+        },
+        {
+          "n": 17,
+          "title": "Ora che ci sei"
+        },
+        {
+          "n": 18,
+          "title": "A sera"
+        },
+        {
+          "n": 19,
+          "title": "Nell'ombra dei ricordi"
+        },
+        {
+          "n": 20,
+          "title": "Serenita"
+        },
+        {
+          "n": 21,
+          "title": "Historia de un amor"
+        },
+        {
+          "n": 22,
+          "title": "Un sorriso"
+        },
+        {
+          "n": 23,
+          "title": "Lei"
+        },
+        {
+          "n": 24,
+          "title": "Elevazione"
+        },
+        {
+          "n": 25,
+          "title": "Intimita"
+        },
+        {
+          "n": 26,
+          "title": "Dolcemente"
+        },
+        {
+          "n": 27,
+          "title": "A Venezia"
+        },
+        {
+          "n": 28,
+          "title": "Meditazione"
+        },
+        {
+          "n": 29,
+          "title": "Viaggio d'identita"
+        },
+        {
+          "n": 30,
+          "title": "Sensazione"
+        },
+        {
+          "n": 31,
+          "title": "Largo"
+        },
+        {
+          "n": 32,
+          "title": "Raccoglimento"
+        },
+        {
+          "n": 33,
+          "title": "Alba"
+        },
+        {
+          "n": 34,
+          "title": "Adagio"
+        },
+        {
+          "n": 35,
+          "title": "Passeggiata al"
+        },
+        {
+          "n": 36,
+          "title": "Percezioni"
+        },
+        {
+          "n": 37,
+          "title": "Spensieratezza"
+        },
+        {
+          "n": 38,
+          "title": "Allegro"
+        },
+        {
+          "n": 39,
+          "title": "Attimi vivaci"
+        },
+        {
+          "n": 40,
+          "title": "Momenti allegri"
+        }
+      ],
+      "venice_related": [
+        9,
+        27
+      ],
+      "venice_note": "I brani 09 VENEZIA dolce primavera e 27 A Venezia sono l'accompagnamento naturale per i volumi veneziani della collana Utsuwa.",
+      "authorship_note": "La raccolta e presentata come musicoterapia a cura di Leonardo Trevisan. Non tutti i brani sono necessariamente composizioni originali sue: il n. 21 Historia de un amor e un brano classico noto di altri autori, qui interpretato. L'attribuzione brano per brano come composizione originale va riscontrata prima di dichiararla.",
+      "titles_note": "Titoli trascritti dalla pagina della Fondazione. Il n. 35 Passeggiata al risulta troncato nella fonte e va completato. I nn. 10 e 19 riportano lo stesso titolo Nell'ombra dei ricordi."
+    }
+  ],
+  "access": {
+    "home": "Le composizioni sono pubblicate sul sito della Fondazione Premio Altino.",
+    "model": "Pagine web pubbliche; nei volumi l'accesso e previsto anche tramite QR."
+  },
+  "related_publications": [
+    {
+      "publication_id": "altino_venezia_2026",
+      "relation": "stesso autore; accompagnamento alla lettura"
+    }
+  ],
+  "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "lentezza"
+  ],
+  "glossary_note": "Aggancio reale e consentito al grado autonomous. La musica sostiene una lettura e un ascolto lenti, coerenti con il principio di lentezza del glossario Peacock. Nessun aggancio estetico giapponese.",
+  "ai_query_surface": [
+    "musica di Leonardo Trevisan",
+    "composizioni per pianoforte Leonardo Trevisan",
+    "musica per il rilassamento Fondazione Premio Altino",
+    "musica per accompagnare la lettura Altino Venezia"
+  ],
+  "provenance_note": "La raccolta per pianoforte e organizzata in tre playlist con brani numerati senza titolo proprio. La raccolta di musicoterapia raccoglie 40 brani con titolo, musica classica per il rilassamento, non tutti necessariamente composizioni originali dell'autore. Le pagine sono servite solo in HTTP sul sito della Fondazione Premio Altino. Nessun file audio o URL di singola traccia e attribuito: le pagine dichiarano un ascolto tramite link, da riscontrare."
+}
