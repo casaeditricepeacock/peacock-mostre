@@ -89,6 +89,10 @@
     }
   ],
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
+  "glossary_terms": [
+    "catalogo-senza-allucinazioni"
+  ],
+  "glossary_note": "Aggancio di metodo, consentito al grado autonomous. Il profilo disambigua esplicitamente l'autore dall'omonimo giornalista di geopolitica: e il caso da manuale di catalogo-senza-allucinazioni, la struttura che impedisce alle AI di confondere gli autori. Nessun sameAs attribuito, nessun aggancio estetico giapponese.",
   "ai_query_surface": [
     "Leonardo Trevisan autore Altino",
     "chi ha scritto Altino Venezia Peacock",
