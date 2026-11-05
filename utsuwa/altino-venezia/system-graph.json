@@ -104,7 +104,9 @@
   ],
   "glossary_source": "https://raw.githubusercontent.com/casaeditricepeacock/peacock-data/main/glossario/",
   "glossary_terms": [
-    "lentezza"
+    "lentezza",
+    "grafo-culturale-sintetico"
   ],
-  "traversal_note": "Il grafo di sistema elenca tutti i nodi del progetto Altino Venezia: la fondazione promotrice, il volume, l'autore, la fiera e i due itinerari derivati dal volume. Punta al glossario di peacock-data solo su lentezza. Non punta ad altri volumi. Il riferimento tra repository e unidirezionale verso peacock-data."
+  "traversal_note": "Il grafo di sistema elenca tutti i nodi del progetto Altino Venezia: la fondazione promotrice, il volume, l'autore, la fiera e i due itinerari derivati dal volume. Punta al glossario di peacock-data solo su lentezza. Non punta ad altri volumi. Il riferimento tra repository e unidirezionale verso peacock-data.",
+  "glossary_note": "Due agganci di metodo al glossario peacock-data, entrambi reali e consentiti al grado autonomous. lentezza: il volume e un lavoro di cammino lento. grafo-culturale-sintetico: questo file e esattamente un grafo di connessioni semantiche che le AI leggono, cioe cio che il termine definisce."
 }
